@@ -27,6 +27,11 @@ h1, h2, h3 {
     color: #252525;
 }
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -87,7 +92,7 @@ nav {
 
 main {
     /* Make main element take up any surplus space to push footer down */
-    background-color: lightblue;
+    background-color: #ffffff;
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -114,6 +119,26 @@ main {
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
+}
+
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+
+
+#reasons h2 {
+    font-size: 280%;
+    text-align: center;
+}
+
+#benefits-physical > div , #benefits-mental > div {
+    line-height: 20px;
+    margin: 20px;
+}
+
+#benefits-physical p , #benefits-mental p {
+    padding: 0 20px;
 }
 
 /* Footer */
