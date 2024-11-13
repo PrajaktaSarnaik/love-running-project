@@ -210,10 +210,8 @@ main {
     background-image: url('../images/signup-image.webp');
     background-size: cover;
     background-position: 75%;
+    padding: 20px 10% 0 10%;
     flex-grow: 1;
-    padding: 20px ;
-    padding-right: 10%;
-    padding-left: 10%;
 }
 
 #signup-form {
@@ -288,7 +286,7 @@ main {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1 rem;
+        padding-right: 1rem;
     }
 
     #menu {
