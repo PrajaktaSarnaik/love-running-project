@@ -204,8 +204,7 @@ main {
 
 /* Signup page */
 #signup {
-    background: url('../images/signup-image.webp');
-    background-size: cover;
+    background: url('../images/signup-image.webp') no-repeat top center / cover;
     background-position: 75%;
     flex-grow: 1;
     padding: 20px ;
